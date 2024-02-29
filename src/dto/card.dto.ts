@@ -22,8 +22,4 @@ export class Card {
   @IsDefined()
   @IsString()
   date_exp: string;
-
-  @IsUUID()
-  @IsDefined()
-  cardId: string;
 }

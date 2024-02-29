@@ -165,7 +165,7 @@ app.post("/boards/lists/cards_users", async (req: Request, res: Response) => {
   }
 });
 
-app.get("/boards/lists/cards", async (req: Request, res: Response) => {
+app.get("/boards/lists/cards_users", async (req: Request, res: Response) => {
   try {
     const value = [req.body.cardId];
     const text =
